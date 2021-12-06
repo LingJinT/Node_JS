@@ -11,7 +11,7 @@ const buffer = fs.readFileSync(__dirname + "/source/index.htm", "utf-8");
 
 app.use(
   mount("/", async (ctx) => {
-    ctx.body = buffer
+    ctx.body = fs.readFileSync(__dirname + "/source/index.htm", "utf-8")
   })
 );
 
