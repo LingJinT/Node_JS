@@ -1,5 +1,7 @@
 # Node.jS
 > Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行时
+
+
 > Node.js 使用了一个事件驱动、非阻塞式 I/O 的模型，使其轻量又高效。
 
 在Node.js中运行javaScript代码和在Chrome中运行有什么不同吗？
@@ -62,6 +64,7 @@
 - 调用后端服务
 - rest、Graphql
 - VS Ajax
+
 ![Ajax](./img/ajax.png)
 ![RPC](./img/rpc.png)
 
